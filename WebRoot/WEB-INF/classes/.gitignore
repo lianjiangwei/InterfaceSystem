@@ -1,3 +1,6 @@
+/log4j.properties
+/struts.xml
+/system.png
 /applicationContext.xml
 /bpmn/
 /com/
@@ -5,6 +8,3 @@
 /huohuo.xml
 /jiangwei.xml
 /liuying.xml
-/log4j.properties
-/struts.xml
-/system.png
