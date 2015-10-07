@@ -11,12 +11,4 @@
 	<!-- </action> -->
 	<!-- </package> -->
 
-	<package name="default" extends="struts-default" namespace="/">
-		<action name="user_*" class="UserAction" method="{1}">
-			<result name="success">/WEB-INF/jsp/success.jsp</result>
-		</action>
-		
-		
-	</package>
-
 </struts>
