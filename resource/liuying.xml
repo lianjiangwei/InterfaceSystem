@@ -4,12 +4,17 @@
 	"http://struts.apache.org/dtds/struts-2.3.dtd">
 <struts>
 
-
-<!-- 	<package name="product" namespace="/product" extends="struts-default"> -->
-<!-- 		<action name="add"> -->
-<!-- 			<result>/success.jsp</result> -->
-<!-- 		</action> -->
-<!-- 	</package> -->
+	<package name="default" extends="struts-default" namespace="/">
+		<action name="user_*" class="UserAction" method="{1}">
+			<result name="success">/WEB-INF/jsp/success.jsp</result>
+			<result name="login">/WEB-INF/jsp/login.jsp</result>
+			<result name="register">/WEB-INF/jsp/register.jsp</result>
+			<result name="registersuccess">/WEB-INF/jsp/registersuccess.jsp</result>
+		<result name="systemmanage">/WEB-INF/jsp/systemmanage.jsp</result>
+		
+		</action>
+		
+	</package>
 	
 	
 	

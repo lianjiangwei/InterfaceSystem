@@ -5,17 +5,12 @@
 <struts>
 
 
-	<!-- <package name="product" namespace="/product" extends="struts-default"> -->
-	<!-- <action name="add"> -->
-	<!-- <result>/success.jsp</result> -->
-	<!-- </action> -->
-	<!-- </package> -->
+	<package name="default2" extends="struts-default" namespace="/">
+		<action name="zuzhang_*" class="UserAction" method="{1}">
+			<result name="zuzhangmain">/WEB-INF/jsp/zuzhangmain.jsp</result>
 
-	<package name="default" extends="struts-default" namespace="/">
-		<action name="user_*" class="UserAction" method="{1}">
-			<result name="success">/WEB-INF/jsp/success.jsp</result>
-		</action>
 		
+		</action>
 		
 	</package>
 
