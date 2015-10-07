@@ -47,14 +47,17 @@ public class UserAction extends BaseAction<UserInfo>{
 	{
 		return "login";
 	}
+	//注册页面的action
 	public String register()
 	{
 		return "register";
 	}
+	//注册成功页面的action	
 	public String registersuccess()
 	{
 		return "registersuccess";
 	}
+	//系统管理页面的action
 	public String systemmanage()
 	{
 		return "systemmanage";
