@@ -37,7 +37,7 @@
       <div id="u4" class="ax_horizontal_line">
         <img id="u4_start" class="img " src="style/userimages/resources/transparent.gif" alt="u4_start"/>
         <img id="u4_end" class="img " src="style/userimages/resources/transparent.gif" alt="u4_end"/>
-        <img id="u4_line" class="img " src="images/注册/u4_line.png" alt="u4_line"/>
+        <img id="u4_line" class="img " src="style/userimages/register/u4_line.png" alt="u4_line"/>
       </div>
 
       <!-- lblTelephone (Shape) -->
@@ -62,7 +62,7 @@
       <div id="u12" class="ax_horizontal_line">
         <img id="u12_start" class="img " src="style/userimages/resources/transparent.gif" alt="u12_start"/>
         <img id="u12_end" class="img " src="style/userimages/resources/transparent.gif" alt="u12_end"/>
-        <img id="u12_line" class="img " src="images/注册/u4_line.png" alt="u12_line"/>
+        <img id="u12_line" class="img " src="style/userimages/register/u4_line.png" alt="u12_line"/>
       </div>
 
       <!-- lblCongratulate (Shape) -->
