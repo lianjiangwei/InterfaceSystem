@@ -8,6 +8,8 @@
  */
 package com.tgb.interfaceSystem.entity;
 
+import java.io.Serializable;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -26,7 +28,7 @@ import javax.persistence.Version;
  */
 @Entity
 @Table(name = "t_InterfaceDescription")
-public class InterfaceDescription {
+public class InterfaceDescription implements Serializable {
 
 	/*
 	 * 任务ID

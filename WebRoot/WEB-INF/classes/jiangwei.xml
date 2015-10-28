@@ -6,12 +6,19 @@
 
 
 	<package name="default2" extends="struts-default" namespace="/">
-		<action name="zuzhang_*" class="UserAction" method="{1}">
-			<result name="zuzhangmain">/WEB-INF/jsp/zuzhangmain.jsp</result>
-
+		<action name="zuzhang_*" class="HeadAction" method="{1}">
+			<result name="zuzhangmain">/WEB-INF/jsp/headindex.jsp</result>
+			<result name="search">/WEB-INF/jsp/search.jsp</result>
+			<result name="moretask">/WEB-INF/jsp/moretask.jsp</result>
+			<result name="moremove">/WEB-INF/jsp/morepush.jsp</result>
 		
 		</action>
 		
+		<action name="search_*" class="SearchAction" method="{1}">
+			<result name="search">/WEB-INF/jsp/search.jsp</result>
+
+		
+		</action>
 	</package>
 
 </struts>
